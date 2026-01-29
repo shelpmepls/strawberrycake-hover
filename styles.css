@@ -24,16 +24,21 @@ body{
 .cake .top{
     background-color:var(--cake-light);
     width:70%;
+    position: absolute;
 }
 .cake .bottom{
     background-color:var(--cake-dark);
     width:70%;
+    position:absolute;
 }
 .content .strawberry{
     background-color:var(--strawberry);
-    width:70%x;
+    width:70%;
+    position:absolute;
 }
 
 .content .cream{
     background-color:var(--whipped-cream);
+    width:70%;
+    position:absolute;
 }
