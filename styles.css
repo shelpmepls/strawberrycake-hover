@@ -1,0 +1,34 @@
+:root{
+    /*cake colors*/
+    --cake-light:#fffadc;
+    --cake-dark: #eed7be;
+
+    /*cream color*/
+    --whipped-cream:#ffffef;
+
+    /*strawberry color*/
+    --strawberry:#ff3c3c;
+}
+body{
+    margin:0;
+    padding:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.container{
+    width:400px;
+    height:400px;
+}
+.cake .top{
+    background-color:var(--cake-light);
+    width:200px;
+}
+.cake .bottom{
+    background-color:var(--cake-dark);
+    width:200px;
+}
+.strawberry{
+    background-color:var(--strawberry);
+    width:200px;
+}
