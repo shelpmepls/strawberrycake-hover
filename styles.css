@@ -19,16 +19,21 @@ body{
 .container{
     width:400px;
     height:400px;
+    position:relative;
 }
 .cake .top{
     background-color:var(--cake-light);
-    width:200px;
+    width:70%;
 }
 .cake .bottom{
     background-color:var(--cake-dark);
-    width:200px;
+    width:70%;
 }
-.strawberry{
+.content .strawberry{
     background-color:var(--strawberry);
-    width:200px;
+    width:70%x;
+}
+
+.content .cream{
+    background-color:var(--whipped-cream);
 }
