@@ -32,7 +32,7 @@ body{
     position: absolute;
 }
 .cake .top-layer-1{
-    top:10%;
+    top:0;
 }
 .cake .top-layer-2{
     top:40%;
@@ -48,6 +48,10 @@ body{
     background-color:var(--strawberry);
     width:70%;
     height:100px;
+	height: 100px;
+	border-top: 25px solid transparent;
+	border-left: 500px solid #555;
+	border-bottom: 25px solid transparent;
     position:absolute;
     top:0;
 }
