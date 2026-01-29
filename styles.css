@@ -22,18 +22,20 @@ body{
     height:400px;
     position:relative;
 }
-.cake .top{
+.cake .top-layer-1{
     background-color:var(--cake-light);
     width:70%;
     height:100px;
-    transform:skew(15deg, 10deg);
+    border-top: 20px solid transparent;
+	border-left: 400px solid transparent;
+	border-bottom: 1px solid transparent;
     position: absolute;
     top:5%;
 }
-.cake .bottom{
+.cake .bottom-layer-1{
     background-color:var(--cake-dark);
     width:70%;
-    height:50px;
+    height:20px;
     position:absolute;
     top:10%;
 }
