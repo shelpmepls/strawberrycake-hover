@@ -28,23 +28,27 @@ body{
     height:100px;
     transform:skew(15deg, 10deg);
     position: absolute;
+    top:5%;
 }
 .cake .bottom{
     background-color:var(--cake-dark);
     width:70%;
-    height:100px;
+    height:50px;
     position:absolute;
+    top:10%;
 }
 .content .strawberry{
     background-color:var(--strawberry);
     width:70%;
     height:100px;
     position:absolute;
+    top:0;
 }
 
 .content .cream{
     background-color:var(--whipped-cream);
     width:70%;
-    height:100px;
+    height:50px;
     position:absolute;
+    top:30%;
 }
