@@ -24,6 +24,8 @@ body{
 .cake .top{
     background-color:var(--cake-light);
     width:70%;
+    height:10px;
+    transform:skew(15deg, 15deg);
     position: absolute;
 }
 .cake .bottom{
