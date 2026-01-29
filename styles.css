@@ -15,6 +15,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
+    background-color:#f9a2bc;
 }
 .container{
     width:400px;
@@ -24,23 +25,26 @@ body{
 .cake .top{
     background-color:var(--cake-light);
     width:70%;
-    height:10px;
-    transform:skew(15deg, 15deg);
+    height:100px;
+    transform:skew(15deg, 10deg);
     position: absolute;
 }
 .cake .bottom{
     background-color:var(--cake-dark);
     width:70%;
+    height:100px;
     position:absolute;
 }
 .content .strawberry{
     background-color:var(--strawberry);
     width:70%;
+    height:100px;
     position:absolute;
 }
 
 .content .cream{
     background-color:var(--whipped-cream);
     width:70%;
+    height:100px;
     position:absolute;
 }
