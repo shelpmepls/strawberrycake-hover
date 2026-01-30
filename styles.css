@@ -21,20 +21,26 @@ body{
     width:400px;
     height:400px;
     position:relative;
+    perspective:
 }
-.cake .top-layer-1, .top-layer-2{
+.cake .top-layer-1{
     background-color:var(--cake-light);
     width:0;
     height:100px;
-    border-top: 25px solid transparent;
+    border-top: 25px solid #f9a2bc;
 	border-left: 500px solid var(--cake-light);
 	border-bottom: 25px solid transparent;
     position: absolute;
-}
-.cake .top-layer-1{
     top:0;
-}
+
 .cake .top-layer-2{
+     background-color:var(--cake-light);
+    width:0;
+    height:100px;
+    border-top: 25px solid #f9a2bc;
+	border-left: 500px solid var(--cake-light);
+	border-bottom: 25px solid transparent;
+    position: absolute;
     top:40%;
 }
 .cake .bottom-layer-1{
