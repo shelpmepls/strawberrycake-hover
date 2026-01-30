@@ -21,7 +21,7 @@ body{
     width:400px;
     height:400px;
     position:relative;
-    perspective:
+    perspective:80px;
 }
 .cake .top-layer-1{
     background-color:var(--cake-light);
@@ -31,10 +31,10 @@ body{
 	border-left: 500px solid var(--cake-light);
 	border-bottom: 25px solid transparent;
     position: absolute;
-    top:0;
-
+    top:5%;
+}
 .cake .top-layer-2{
-     background-color:var(--cake-light);
+    background-color:var(--cake-light);
     width:0;
     height:100px;
     border-top: 25px solid #f9a2bc;
@@ -50,7 +50,14 @@ body{
     position:absolute;
     top:10%;
 }
-.content .strawberry{
+.container .top-cream{
+    background-color: var(--whipped-cream);
+    position: absolute;
+    top:0;
+    width:20%;
+    height:30px;
+}
+.container .strawberry{
     background-color:var(--strawberry);
     width:70%;
     height:100px;
@@ -62,7 +69,7 @@ body{
     top:0;
 }
 
-.content .cream{
+.container .cream{
     background-color:var(--whipped-cream);
     width:70%;
     height:50px;
