@@ -135,12 +135,12 @@ body{
 .container .strawberry-layer span:first-child{
     left:10;
 }
-.container .strawberry-layer span:nth-child(2){
+.container .strawberry-layer span:nth-child(3){
     left:100;
 }
-.container .strawberry-layer span:nth-child(3){
+.container .strawberry-layer span:nth-child(5){
     left:215;
 }
-.container .strawberry-layer span:nth-child(4){
+.container .strawberry-layer span:nth-child(6){
     right:50;
 }
