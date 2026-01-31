@@ -107,8 +107,8 @@ body{
 .container .strawberry-layer .strawberry-side1,.strawberry-side2,.strawberry-side3{
     background-color:var(--strawberry);
     width:20px;
-    border-left:25px solid #555;
-    border-right:25px solid #555;
+    border-left:25px solid var(--whipped-cream);
+    border-right:25px solid var(--whipped-cream);
     bottom:140;
     height:20px;
     position:absolute;
