@@ -42,14 +42,16 @@ body{
 	border-bottom: 25px solid transparent;
     position: absolute;
     bottom:40;
+    transform:rotate(1deg);
 }
 .cake .bottom-layer-1{
     background-color:var(--cake-dark);
     width:100%;
-    height:20px;
+    height:15px;
     position:absolute;
-    top:150;
+    top:130;
     z-index:1;
+    transform:rotate(1deg);
 }
 .cake .bottom-layer-2{
     background-color:var(--cake-dark);
@@ -57,6 +59,8 @@ body{
     height:20px;
     position:absolute;
     bottom:35;
+    transform:rotate(1deg);
+    right:1;
 }
 .container .top-cream{
     background-color: var(--whipped-cream);
@@ -84,26 +88,36 @@ body{
 .cream .cream-top{
     background-color:var(--whipped-cream);
     width:100%;
-    height:50px;
+    height:45px;
     position:absolute;
-    top:40%;
+    top:145;
+    transform:rotate(1deg);
+    border-top:5px solid var(--whipped-cream);
 }
 .cream .cream-bottom{
     background-color:var(--whipped-cream);
     width:100%;
-    height:50px;
+    height:45px;
     position:absolute;
-    top:50%;
+    top:250;
+    transform:rotate(1deg);
+    border-bottom:5px solid var(--whipped-cream);
 }
 
-.container .cream .strawberry-side1,.strawberry-side2,.strawberry-side3{
+.container .strawberry-layer .strawberry-side1,.strawberry-side2,.strawberry-side3{
     background-color:var(--strawberry);
     width:20px;
     border-left:25px solid #555;
     border-right:25px solid #555;
     bottom:140;
+    height:20px;
+    position:absolute;
 }
-
-.container .cream .strawberry-side1{
+.container .strawberry-layer .span{
+    background-color:var(--whippedcream);
+    height:30px;
+    width:20px;
+}
+.container .strawberry-layer .strawberry-side1{
     padding-left:30px;
 }
