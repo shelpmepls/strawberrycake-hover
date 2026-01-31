@@ -1,6 +1,6 @@
 :root{
     /*cake colors*/
-    --cake-light:#fffadc;
+    --cake-light:#fff3b0;
     --cake-dark: #eed7be;
 
     /*cream color*/
@@ -8,6 +8,7 @@
 
     /*strawberry color*/
     --strawberry:#ff3c3c;
+    --strawberry-inner:#ff8ea0;
 }
 body{
     margin:0;
@@ -47,16 +48,16 @@ body{
 .cake .bottom-layer-1{
     background-color:var(--cake-dark);
     width:100%;
-    height:15px;
+    height:10px;
     position:absolute;
-    top:130;
+    top:135;
     z-index:1;
     transform:rotate(1deg);
 }
 .cake .bottom-layer-2{
     background-color:var(--cake-dark);
     width:100%;
-    height:20px;
+    height:10px;
     position:absolute;
     bottom:35;
     transform:rotate(1deg);
@@ -134,14 +135,26 @@ body{
     margin-left:270px;
 }
 .container .strawberry-layer span:first-child{
-    left:10;
+    left:0;
 }
 .container .strawberry-layer span:nth-child(3){
-    left:100;
+    left:95;
 }
 .container .strawberry-layer span:nth-child(5){
     left:215;
 }
 .container .strawberry-layer span:nth-child(7){
-    right:50;
+    right:0;
+}
+.strawberry-inner1, .strawberry-inner2,.strawberry-inner3{
+    background-color:var(--strawberry-inner);
+    width:60px;
+    border-top-left-radius:60px;
+    border-bottom-left-radius:80px;
+    border-top-right-radius:30px;
+    border-bottom-right-radius:60px;
+    top:185;
+    height:60px;
+    position:absolute;
+    transform:rotate(47deg);
 }
