@@ -106,20 +106,20 @@ body{
 
 .container .strawberry-layer .strawberry-side1,.strawberry-side2,.strawberry-side3{
     background-color:var(--strawberry);
-    width:50px;
+    width:80px;
     border-top-left-radius:60px;
     border-bottom-left-radius:80px;
     border-top-right-radius:30px;
     border-bottom-right-radius:60px;
-    top:195;
-    height:50px;
+    top:185;
+    height:80px;
     position:absolute;
     transform:rotate(47deg);
 }
 .container .strawberry-layer span{
     background-color:var(--whipped-cream);
-    height:60px;
-    width:60px;
+    height:70px;
+    width:70px;
     top:190;
     position:absolute;
 }
@@ -132,9 +132,15 @@ body{
 .container .strawberry-layer .strawberry-side3{
     margin-left:270px;
 }
+.container .strawberry-layer span:first-child{
+    left:10;
+}
 .container .strawberry-layer span:nth-child(2){
     left:100;
 }
 .container .strawberry-layer span:nth-child(3){
-    left:200;
+    left:215;
+}
+.container .strawberry-layer span:nth-child(4){
+    right:50;
 }
