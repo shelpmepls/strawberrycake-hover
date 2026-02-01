@@ -8,7 +8,8 @@
 
     /*strawberry color*/
     --strawberry:#ff3c3c;
-    --strawberry-inner:#ff8ea0;
+    --strawberry-inner:#ffc6c6;
+    --strawberry-veins:#ffe6e6d8;
 }
 body{
     margin:0;
@@ -155,7 +156,15 @@ body{
     border-top-right-radius:30px;
     border-bottom-right-radius:60px;
     top:15;
-    height:5px;
+    left:5;
+    height:60px;
     position:absolute;
     transform:rotate(357deg);
+}
+
+.strawberry-inner1 span{
+    position:absolute;
+    height:10px;
+    width:10px;
+    background-color:var(--strawberry-veins);
 }
