@@ -162,7 +162,7 @@ body{
     transform:rotate(357deg);
 }
 
-.strawberry-inner1 span{
+.container .strawberry-layer .strawberry-side1 .strawberry-inner1 span{
     position:absolute;
     height:10px;
     width:10px;
