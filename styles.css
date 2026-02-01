@@ -8,7 +8,7 @@
 
     /*strawberry color*/
     --strawberry:#ff3c3c;
-    --strawberry-inner:#ffc6c6;
+    --strawberry-inner:#ffb3b3;
     --strawberry-veins:#ffe6e6d8;
 }
 body{
@@ -17,7 +17,7 @@ body{
     display:flex;
     align-items:center;
     justify-content:center;
-    background-color:#ffb9ce;
+    background-color:#fdc3d5;
 }
 .container{
     width:400px;
@@ -162,9 +162,12 @@ body{
     transform:rotate(357deg);
 }
 
-.strawberry-inner1 .strawberry-veins span{
+.strawberry-inner1 .strawberry-veins span:nth-child(1){
     position:absolute;
-    height:10px;
-    width:10px;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
     background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
 }
