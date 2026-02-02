@@ -173,46 +173,100 @@ body{
 }
 .strawberry-inner1 .strawberry-veins span:nth-child(2){
     position:absolute;
-    top:-4;
-    left:5;
+    top:-8;
+    left:24;
     height:1px;
     width:15px;
     background-color:var(--strawberry-veins);
-    transform:rotate(276deg);
+    transform:rotate(281deg);
 }
 .strawberry-inner1 .strawberry-veins span:nth-child(3){
     position:absolute;
-    top:-4;
-    left:5;
+    top:-8;
+    left:44;
     height:1px;
     width:15px;
     background-color:var(--strawberry-veins);
-    transform:rotate(276deg);
+    transform:rotate(287deg);
 }
 .strawberry-inner1 .strawberry-veins span:nth-child(4){
     position:absolute;
-    top:-4;
-    left:5;
+    top:52;
+    left:52;
     height:1px;
     width:15px;
     background-color:var(--strawberry-veins);
-    transform:rotate(276deg);
+    transform:rotate(179deg);
 }
 .strawberry-inner1 .strawberry-veins span:nth-child(5){
     position:absolute;
+    top:34;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(358deg);
+}
+.strawberry-inner1 .strawberry-veins span:nth-child(6){
+    position:absolute;
+    top:15;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(353deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(1){
+    position:absolute;
     top:-4;
-    left:5;
+    left:50;
     height:1px;
     width:15px;
     background-color:var(--strawberry-veins);
     transform:rotate(276deg);
 }
-.strawberry-inner1 .strawberry-veins span:nth-child(6){
+.strawberry-inner2 .strawberry-veins span:nth-child(2){
     position:absolute;
-    top:-4;
-    left:5;
+    top:-8;
+    left:80;
     height:1px;
     width:15px;
     background-color:var(--strawberry-veins);
-    transform:rotate(276deg);
+    transform:rotate(281deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(3){
+    position:absolute;
+    top:-8;
+    left:100;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(287deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(4){
+    position:absolute;
+    top:52;
+    left:80;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(179deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(5){
+    position:absolute;
+    top:34;
+    left:160;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(358deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(6){
+    position:absolute;
+    top:15;
+    left:160;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(353deg);
 }
