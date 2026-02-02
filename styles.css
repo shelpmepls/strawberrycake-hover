@@ -5,6 +5,7 @@
 
     /*cream color*/
     --whipped-cream:#ffffef;
+    --top-cream: #f2f1f5;
 
     /*strawberry color*/
     --strawberry:#ff3c3c;
@@ -26,6 +27,26 @@ body{
     height:450px;
     position:relative;
     perspective:800px;
+}
+.cake .cake-top{
+    top:-19;
+    left:96;
+    border-top-right-radius:20px;
+    width:283px;
+    height:55px;
+    position:absolute;
+    background-color: var(--top-cream);
+    transform:rotate(7deg) skewX(-61deg);
+    z-index:-1;
+}
+.cake .cake-top span{
+    height:20px;
+    width:20px;
+    position:absolute;
+    border-top-left-radius:20px;
+    background-color: var(--top-cream);
+    transform:rotate(7deg) skewX(-61deg);
+    z-index:-1;
 }
 .cake .top-layer-1{
     background-color:var(--cake-light);
@@ -468,6 +489,6 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:57;
-    left:105;
+    top:43;
+    left:108;
 }
