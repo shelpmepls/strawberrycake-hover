@@ -11,7 +11,7 @@
     --strawberry-inner:#ffb3b3;
     --strawberry-veins:#ffe6e6d8;
     --strawberry-pit:#f9dbdbed;
-    --seeds: #e5ca86d2;
+    --seeds: #00000070;
 }
 body{
     margin:0;
@@ -387,8 +387,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    bottom:22;
-    right:48;
+    bottom:17;
+    right:53;
 }
 .strawberry span:nth-child(8){
     width:2px;
@@ -396,8 +396,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    bottom:22;
-    right:64;
+    bottom:15;
+    right:66;
 }
 .strawberry span:nth-child(9){
     width:2px;
@@ -405,8 +405,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:110;
-    left:51;
+    top:113;
+    left:48;
 }
 .strawberry span:nth-child(10){
     width:2px;
@@ -414,8 +414,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:87;
+    left:64;
 }
 .strawberry span:nth-child(11){
     width:2px;
@@ -423,8 +423,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:86;
+    left:76;
 }
 .strawberry span:nth-child(12){
     width:2px;
@@ -432,8 +432,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:74;
+    left:77;
 }
 .strawberry span:nth-child(13){
     width:2px;
@@ -441,8 +441,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:72;
+    left:90;
 }
 .strawberry span:nth-child(14){
     width:2px;
@@ -450,8 +450,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:59;
+    left:92;
 }
 .strawberry span:nth-child(15){
     width:2px;
@@ -459,6 +459,15 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:79;
-    left:67;
+    top:57;
+    left:105;
+}
+.strawberry span:nth-child(16){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:57;
+    left:105;
 }
