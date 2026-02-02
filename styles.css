@@ -327,11 +327,92 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(353deg);
 }
-.strawberry span{
-    width:10px;
-    height:10px;
+.strawberry span:nth-child(1){
+    width:2px;
+    height:2px;
     border-radius: 0 50% 50% 50%;
-    border:2px solid var(--seeds);
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(2){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(3){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(4){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(5){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(6){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(7){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(8){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(9){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:10;
+    left:10;
+}
+.strawberry span:nth-child(10){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
     position:absolute;
     top:10;
     left:10;
