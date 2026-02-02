@@ -162,7 +162,7 @@ body{
     transform:rotate(357deg);
 }
 
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(1){
+.strawberry-inner1 .strawberry-veins span:nth-child(1){
     position:absolute;
     top:-4;
     left:5;
@@ -171,7 +171,7 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(276deg);
 }
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(2){
+.strawberry-inner1 .strawberry-veins span:nth-child(2){
     position:absolute;
     top:-8;
     left:24;
@@ -180,7 +180,7 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(281deg);
 }
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(3){
+.strawberry-inner1 .strawberry-veins span:nth-child(3){
     position:absolute;
     top:-8;
     left:44;
@@ -189,7 +189,7 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(287deg);
 }
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(4){
+.strawberry-inner1 .strawberry-veins span:nth-child(4){
     position:absolute;
     top:52;
     left:52;
@@ -198,7 +198,7 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(179deg);
 }
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(5){
+.strawberry-inner1 .strawberry-veins span:nth-child(5){
     position:absolute;
     top:34;
     left:60;
@@ -207,9 +207,117 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(358deg);
 }
-.strawberry-inner1,.strawberry-inner2,.strawberry-inner3 .strawberry-veins span:nth-child(6){
+.strawberry-inner1 .strawberry-veins span:nth-child(6){
     position:absolute;
     top:15;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(353deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(1){
+    position:absolute;
+    top:-5;
+    left:7;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(2){
+    position:absolute;
+    top:-8;
+    left:27;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(281deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(3){
+    position:absolute;
+    top:-7;
+    left:46;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(287deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(4){
+    position:absolute;
+    top:52;
+    left:52;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(179deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(5){
+    position:absolute;
+    top:34;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(358deg);
+}
+.strawberry-inner2 .strawberry-veins span:nth-child(6){
+    position:absolute;
+    top:16;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(353deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(1){
+    position:absolute;
+    top:-5;
+    left:7;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(2){
+    position:absolute;
+    top:-8;
+    left:27;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(281deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(3){
+    position:absolute;
+    top:-7;
+    left:46;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(287deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(4){
+    position:absolute;
+    top:52;
+    left:52;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(179deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(5){
+    position:absolute;
+    top:34;
+    left:60;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(358deg);
+}
+.strawberry-inner3 .strawberry-veins span:nth-child(6){
+    position:absolute;
+    top:16;
     left:60;
     height:1px;
     width:15px;
