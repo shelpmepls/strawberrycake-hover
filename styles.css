@@ -342,7 +342,7 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
+    top:26;
     left:10;
 }
 .strawberry span:nth-child(3){
@@ -352,7 +352,7 @@ body{
     border:1px solid var(--seeds);
     position:absolute;
     top:10;
-    left:10;
+    left:26;
 }
 .strawberry span:nth-child(4){
     width:2px;
@@ -360,7 +360,7 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
+    top:42;
     left:10;
 }
 .strawberry span:nth-child(5){
@@ -369,8 +369,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    top:26;
+    left:26;
 }
 .strawberry span:nth-child(6){
     width:2px;
@@ -379,7 +379,7 @@ body{
     border:1px solid var(--seeds);
     position:absolute;
     top:10;
-    left:10;
+    left:42;
 }
 .strawberry span:nth-child(7){
     width:2px;
@@ -387,8 +387,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    bottom:22;
+    right:48;
 }
 .strawberry span:nth-child(8){
     width:2px;
@@ -396,8 +396,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    bottom:22;
+    right:64;
 }
 .strawberry span:nth-child(9){
     width:2px;
@@ -405,8 +405,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    top:110;
+    left:51;
 }
 .strawberry span:nth-child(10){
     width:2px;
@@ -414,6 +414,51 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    top:79;
+    left:67;
+}
+.strawberry span:nth-child(11){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:79;
+    left:67;
+}
+.strawberry span:nth-child(12){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:79;
+    left:67;
+}
+.strawberry span:nth-child(13){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:79;
+    left:67;
+}
+.strawberry span:nth-child(14){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:79;
+    left:67;
+}
+.strawberry span:nth-child(15){
+    width:2px;
+    height:2px;
+    border-radius: 0 50% 50% 50%;
+    border:1px solid var(--seeds);
+    position:absolute;
+    top:79;
+    left:67;
 }
