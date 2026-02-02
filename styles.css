@@ -171,3 +171,48 @@ body{
     background-color:var(--strawberry-veins);
     transform:rotate(276deg);
 }
+.strawberry-inner1 .strawberry-veins span:nth-child(2){
+    position:absolute;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner1 .strawberry-veins span:nth-child(3){
+    position:absolute;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner1 .strawberry-veins span:nth-child(4){
+    position:absolute;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner1 .strawberry-veins span:nth-child(5){
+    position:absolute;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
+.strawberry-inner1 .strawberry-veins span:nth-child(6){
+    position:absolute;
+    top:-4;
+    left:5;
+    height:1px;
+    width:15px;
+    background-color:var(--strawberry-veins);
+    transform:rotate(276deg);
+}
