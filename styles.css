@@ -511,8 +511,11 @@ body{
     animation: rotate-strawberry 5s infinite linear
 }
 @keyframes rotate-strawberry{
-    to{
-        transform:rotateX(360deg);
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(360deg);
     }
 
 }
