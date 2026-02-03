@@ -28,11 +28,19 @@ body{
     position:relative;
     perspective:800px;
 }
+.container span{
+    position:absolute;
+    background-color:var(--whipped-cream);
+    width:20px;
+    height:400px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+}
 .cake .cake-top{
     top:-19;
     left:96;
     border-top-right-radius:20px;
-    width:283px;
+    width:268px;
     height:55px;
     position:absolute;
     background-color: var(--top-cream);
@@ -40,13 +48,15 @@ body{
     z-index:-1;
 }
 .cake .cake-top span{
-    height:20px;
-    width:20px;
+    height:50px;
+    width:92px;
     position:absolute;
     border-top-left-radius:20px;
     background-color: var(--top-cream);
-    transform:rotate(7deg) skewX(-61deg);
+    transform:rotate(2deg) skewY(-6deg);
     z-index:-1;
+    top:-1;
+    left:-77;
 }
 .cake .top-layer-1{
     background-color:var(--cake-light);
