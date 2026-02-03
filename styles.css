@@ -508,11 +508,11 @@ body{
 }
 .strawberry:hover{
     margin-top:-50;
-    animation: rotate-strawberry 2s infinite linear
+    animation: rotate-strawberry 5s infinite linear
 }
 @keyframes rotate-strawberry{
     to{
-        transform:rotateY(360deg);
+        transform:rotateX(360deg);
     }
 
 }
