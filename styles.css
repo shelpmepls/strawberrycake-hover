@@ -511,17 +511,11 @@ body{
     animation: rotate-strawberry 5s infinite linear
 }
 @keyframes rotate-strawberry{
-  0% {
-    left: 33.3333333333%;
-    transform: translateY(-50%);
-  }
-  33.333% {
-    left: 0;
-    transform: translateY(-100%);
-  }
-  33.334% {
-    left: 100%;
-    transform: translateY(100%);
-  }
+    0%{
+        transform:rotateY(0deg);
+    }
+    100%{
+        transform:rotateY(360deg);
+    }
 
 }
