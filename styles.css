@@ -56,7 +56,7 @@ body{
     position:absolute;
     border-top-left-radius:20px;
     background-color: var(--top-cream);
-    transform:rotate(2deg) skewY(-6deg);
+    transform:rotate(2deg);
     z-index:-1;
     top:-1;
     left:-77;
@@ -512,25 +512,19 @@ body{
 }
 @keyframes rotate-strawberry{
     0%{
-        right:20%;
-        transform:translateX(50%);
+        background-position-x: 0rem;
     }
     25%{
-        right:40%;
-        transform:translateX(50%);
+        background-position-x: 0.2rem;
     }
     50%{
-        right:60%;
-        transform:translateX(50%);
+        background-position-x:0.4rem;
     }
     75%{
-        right:800%;
-        transform:translateX(50%);
+        background-position-x:0.6rem;
     }
     100%{
-        right:100%;
-        transform:translateX(50%);
+        background-position-x:0.8rem;
     }
-    
 
 }
