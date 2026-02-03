@@ -513,15 +513,15 @@ body{
 @keyframes rotate-strawberry{
   0% {
     left: 33.3333333333%;
-    transform: translateX(-50%);
+    transform: translateY(-50%);
   }
   33.333% {
     left: 0;
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   33.334% {
     left: 100%;
-    transform: translateX(100%);
+    transform: translateY(100%);
   }
 
 }
