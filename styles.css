@@ -123,6 +123,7 @@ body{
     position:absolute;
     top:-100;
     transition: margin 0.5s ease-in-out;
+    transform-origin: 0% 100%;
 }
 
 .cream .cream-top{
