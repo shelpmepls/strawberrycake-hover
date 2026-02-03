@@ -515,16 +515,16 @@ body{
         background-position-x: 0rem;
     }
     25%{
-        background-position-x: 0.2rem;
+        background-position-x: 0.25rem;
     }
     50%{
-        background-position-x:0.4rem;
+        background-position-x:0.5rem;
     }
     75%{
-        background-position-x:0.6rem;
+        background-position-x:0.75rem;
     }
     100%{
-        background-position-x:0.8rem;
+        background-position-x:1rem;
     }
 
 }
