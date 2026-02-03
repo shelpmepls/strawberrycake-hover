@@ -122,7 +122,7 @@ body{
     transform:rotate(46deg);
     position:absolute;
     top:-100;
-    transition: margin 0.2s ease-in-out;
+    transition: margin 0.5s ease-in-out;
 }
 
 .cream .cream-top{
@@ -508,6 +508,7 @@ body{
 }
 .strawberry:hover{
     margin-top:-50;
+    animation: rotate-strawberry 2s infinite linear
 }
 @keyframes rotate-strawberry{
     0%{
