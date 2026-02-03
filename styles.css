@@ -28,13 +28,16 @@ body{
     position:relative;
     perspective:800px;
 }
-.container span{
+.container .side-cream{
     position:absolute;
     background-color:var(--whipped-cream);
-    width:20px;
-    height:400px;
+    width:25px;
+    height:415px;
     border-top-left-radius:10px;
     border-bottom-left-radius:10px;
+    z-index:1;
+    left:-24;
+    top:-4;
 }
 .cake .cake-top{
     top:-19;
@@ -160,26 +163,26 @@ body{
     position:absolute;
     z-index:-1;
 }
-.container .strawberry-layer .strawberry-side1{
+.strawberry-layer .strawberry-side1{
     margin-left:30px;
 }
-.container .strawberry-layer .strawberry-side2{
+.strawberry-layer .strawberry-side2{
     margin-left:150px;
 }
-.container .strawberry-layer .strawberry-side3{
+.strawberry-layer .strawberry-side3{
     margin-left:270px;
 }
-.container .strawberry-layer span:first-child{
+.strawberry-layer span:first-child{
     left:0;
 }
-.container .strawberry-layer span:nth-child(3){
+.strawberry-layer span:nth-child(3){
     left:95;
 }
-.container .strawberry-layer span:nth-child(5){
+.strawberry-layer span:nth-child(5){
     left:215;
 }
-.container .strawberry-layer span:nth-child(7){
-    right:0;
+.strawberry-layer span:nth-child(7){
+    left:330;
 }
 .strawberry-inner1, .strawberry-inner2,.strawberry-inner3{
     background-color:var(--strawberry-inner);
