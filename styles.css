@@ -507,5 +507,29 @@ body{
     left:108;
 }
 .strawberry:hover{
-    margin-top:-2;
+    margin-top:-50;
+}
+@keyframes rotate-strawberry{
+    0%{
+        right:20%;
+        transform:translateX(50%);
+    }
+    25%{
+        right:40%;
+        transform:translateX(50%);
+    }
+    50%{
+        right:60%;
+        transform:translateX(50%);
+    }
+    75%{
+        right:800%;
+        transform:translateX(50%);
+    }
+    100%{
+        right:100%;
+        transform:translateX(50%);
+    }
+    
+
 }
