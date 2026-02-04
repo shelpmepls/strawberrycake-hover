@@ -516,35 +516,6 @@ body{
     position:absolute;
     border-radius:10px;
 }
-.strawberry .leaf-1{
-    top:10;
-    left:10;
-}
-.strawberry .leaf-2{
-    top:10;
-    left:10;
-}
-.strawberry .leaf-3{
-    top:10;
-    left:10;
-}
-.strawberry .leaf-4{
-    top:10;
-    left:10;
-}
-.strawberry .leaf-5{
-    top:10;
-    left:10;
-}
-.strawberry .stem{
-    width:10px;
-    height:15px;
-    background-color:var(--strawberry-leaf);
-    position:absolute;
-    border-radius:5px;
-    top:15;
-    left:2;
-}
 .strawberry:hover{
     animation: float-strawberry 2s infinite linear;
 }
