@@ -12,7 +12,7 @@
     --strawberry-inner:#ffb3b3;
     --strawberry-veins:#ffe6e6d8;
     --strawberry-pit:#f9dbdbed;
-    --seeds: #00000070;
+    --seeds: #ffda5670;
     --strawberry-leaf:#677f5f;
 }
 body{
@@ -370,6 +370,7 @@ body{
     height:2px;
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
+    background-color:var(--seeds);
     position:absolute;
     top:109;
     left:109;
@@ -380,6 +381,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:94;
     left:111;
 }
@@ -389,6 +391,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:110;
     left:93;
 }
@@ -398,6 +401,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:110;
     left:77;
 }
@@ -407,6 +411,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:94;
     left:95;
 }
@@ -416,6 +421,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:80;
     left:111;
 }
@@ -425,6 +431,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:19;
     left:44;
 }
@@ -434,6 +441,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:8;
     left:65;
 }
@@ -443,6 +451,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:32;
     left:26;
 }
@@ -452,6 +461,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:24;
     left:61;
 }
@@ -461,6 +471,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:75;
     left:21;
 }
@@ -470,6 +481,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:12;
     left:82;
 }
@@ -479,6 +491,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:50;
     left:13;
 }
@@ -488,6 +501,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:71;
     left:7;
 }
@@ -497,6 +511,7 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:38;
     left:43;
 }
@@ -506,42 +521,51 @@ body{
     border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
+    background-color:var(--seeds);
     top:57;
     left:28;
 }
 .strawberry .leaf-1,.leaf-2,.leaf-3,.leaf-4,.leaf-5{
-    width:10px;
-    height:15px;
+    width:7px;
+    height:16px;
     background-color:var(--strawberry-leaf);
     position:absolute;
     border-radius:10px;
 }
 .strawberry .leaf-1{
-    top:10;
-    left:10;
+    top:15;
+    left:21;
+    transform:rotate(59deg);
 }
 .strawberry .leaf-2{
-    top:10;
-    left:12;
+    top:21;
+    left:22;
+    transform:rotate(85deg);
 }
 .strawberry .leaf-3{
-    top:10;
-    left:1;
+    top:33;
+    left:7;
+    transform:rotate(23deg);
 }
 .strawberry .leaf-4{
-    top:10;
-    left:5;
+    top:32;
+    left:13;
+    transform:rotate(348deg);
 }
 .strawberry .leaf-5{
-    top:10;
-    left:20;
+    top:28;
+    left:19;
+    transform:rotate(311deg);
 }
 .strawberry .stem{
-    width:10px;
-    height:15px;
+    width:8px;
+    height:20px;
     background-color:var(--strawberry-leaf);
     position:absolute;
-    border-radius:5px;
+    border-radius:3px;
+    top:20;
+    left:11;
+    transform:rotate(312deg);
 }
 .strawberry:hover{
     animation: float-strawberry 2s infinite linear;
