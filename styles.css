@@ -13,6 +13,7 @@
     --strawberry-veins:#ffe6e6d8;
     --strawberry-pit:#f9dbdbed;
     --seeds: #00000070;
+    --strawberry-leaf:#677f5f;
 }
 body{
     margin:0;
@@ -115,15 +116,16 @@ body{
     background-color:var(--strawberry);
     width:120px;
 	height: 120px;
-	border-top-left-radius: 40px;
+	border-top-left-radius: 300px;
 	border-top-right-radius: 150px;
     border-bottom-left-radius:150px;
-    border-bottom-right-radius:300px;
-    transform:rotate(46deg);
+    border-bottom-right-radius:40px;
     position:absolute;
-    top:-100;
+    top:-131;
+    left:26;
     transition: margin 0.5s ease-in-out;
-    transform-origin:75px 75px;
+    filter:drop-shadow(4px 4px 10px transparent);
+    box-shadow:22px 7px 14px rgba(0,0,0,0.1) inset, -8px 10px 16px rgba(0,0,0,0.05), 2px 16px 20px rgba(0,0,0,.05);
 }
 
 .cream .cream-top{
@@ -366,47 +368,47 @@ body{
 .strawberry span:nth-child(1){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:10;
+    top:109;
+    left:109;
 }
 .strawberry span:nth-child(2){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:26;
-    left:10;
+    top:94;
+    left:111;
 }
 .strawberry span:nth-child(3){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:10;
-    left:26;
+    top:110;
+    left:93;
 }
 .strawberry span:nth-child(4){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:42;
-    left:10;
+    top:110;
+    left:77;
 }
 .strawberry span:nth-child(5){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:26;
-    left:26;
+    top:94;
+    left:95;
 }
 .strawberry span:nth-child(6){
     width:2px;
@@ -423,8 +425,8 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    bottom:17;
-    right:53;
+    top:22;;
+    left:47;;
 }
 .strawberry span:nth-child(8){
     width:2px;
@@ -432,84 +434,89 @@ body{
     border-radius: 0 50% 50% 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    bottom:15;
-    right:66;
+    top:10;
+    left:65;
 }
 .strawberry span:nth-child(9){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:113;
-    left:48;
+    top:32;
+    left:26;
 }
 .strawberry span:nth-child(10){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:87;
-    left:64;
+    top:24;
+    left:61;
 }
 .strawberry span:nth-child(11){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:86;
-    left:76;
+    top:75;
+    left:21;
 }
 .strawberry span:nth-child(12){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:74;
-    left:77;
+    top:12;
+    left:82;
 }
 .strawberry span:nth-child(13){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:72;
-    left:90;
+    top:50;
+    left:13;
 }
 .strawberry span:nth-child(14){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:59;
-    left:92;
+    top:71;
+    left:7;
 }
 .strawberry span:nth-child(15){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:57;
-    left:105;
+    top:38;
+    left:43;
 }
 .strawberry span:nth-child(16){
     width:2px;
     height:2px;
-    border-radius: 0 50% 50% 50%;
+    border-radius: 50% 50% 0 50%;
     border:1px solid var(--seeds);
     position:absolute;
-    top:43;
-    left:108;
+    top:57;
+    left:28;
+}
+.strawberry .leaf-1,.leaf-2,.leaf-3{
+    width:20px;
+    height:10px;
+    background-color:var(--strawberry-leaf);
+    position:absolute;
 }
 .strawberry:hover{
-    animation: float-strawberry 5s infinite linear;
-    transform:rotate(0deg);
+    animation: float-strawberry 2s infinite linear;
 }
 @keyframes float-strawberry{
     0% {
