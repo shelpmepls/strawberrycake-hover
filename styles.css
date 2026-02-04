@@ -509,12 +509,39 @@ body{
     top:57;
     left:28;
 }
-.strawberry .leaf-1,.leaf-2,.leaf-3{
+.strawberry .leaf-1,.leaf-2,.leaf-3,.leaf-4,.leaf-5{
     width:10px;
     height:15px;
     background-color:var(--strawberry-leaf);
     position:absolute;
     border-radius:10px;
+}
+.strawberry .leaf-1{
+    top:10;
+    left:10;
+}
+.strawberry .leaf-2{
+    top:10;
+    left:12;
+}
+.strawberry .leaf-3{
+    top:10;
+    left:1;
+}
+.strawberry .leaf-4{
+    top:10;
+    left:5;
+}
+.strawberry .leaf-5{
+    top:10;
+    left:20;
+}
+.strawberry .stem{
+    width:10px;
+    height:15px;
+    background-color:var(--strawberry-leaf);
+    position:absolute;
+    border-radius:5px;
 }
 .strawberry:hover{
     animation: float-strawberry 2s infinite linear;
